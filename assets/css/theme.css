@@ -17993,7 +17993,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .btn.btn-soft-primary {
-    color: #377dff;
+    color: #000000;
 }
 
 
@@ -22385,7 +22385,7 @@ label.btn {
     width: 0.9375rem;
     height: 0.9375rem;
     box-sizing: border-box;
-    background-color: #377dff;
+    background-color: #A82682;
     border: 3px solid transparent;
     border-radius: 50%;
     -webkit-transform: scale(0.6);
@@ -22395,7 +22395,7 @@ label.btn {
 
 .u-slick__pagination li.slick-active span {
     background-color: transparent;
-    border-color: #377dff;
+    border-color: #A82682;
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
