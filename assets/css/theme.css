@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #377dff;
+  --blue: #A82682;
   --indigo: #2d1582;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -12733,21 +12733,21 @@ table th {
 ------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background-color: #377dff;
+  background-color: #A82682;
 }
 
 ::selection {
   color: #fff;
-  background-color: #377dff;
+  background-color: #A82682;
 }
 
 .bg-primary ::-moz-selection {
-  color: #377dff;
+  color: #A82682;
   background-color: #fff;
 }
 
 .bg-primary ::selection {
-  color: #377dff;
+  color: #A82682;
   background-color: #fff;
 }
 
