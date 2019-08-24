@@ -14296,7 +14296,7 @@ button:focus {
         color: #8c98a4;
     }
     .u-header--sub-menu-dark-bg-lg .u-header__sub-menu-nav-link:hover {
-        color: #377dff;
+        color: #FECC00;
     }
     .u-header--sub-menu-dark-bg-lg .u-header__product-banner {
         background-color: #1c1d1f;
@@ -14305,10 +14305,10 @@ button:focus {
         color: #8c98a4;
     }
     .u-header--sub-menu-dark-bg-lg .dropdown-nav-link:hover {
-        color: rgba(255, 255, 255, 0.8);
+        color: #FECC00;
     }
     .u-header--sub-menu-dark-bg-lg .dropdown-divider {
-        border-color: rgba(255, 255, 255, 0.1);
+        border-color: #FECC00;
     }
 }
 
@@ -22957,7 +22957,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .gradient-half-primary-v4 {
-    background-image: linear-gradient(150deg, #2d1582 0%, #19a0ff 85%);
+    background-image: linear-gradient(150deg, #400d4d 0%, #63055b 85%);
     background-repeat: repeat-x;
 }
 
