@@ -1703,7 +1703,7 @@ pre code {
 }
 
 .table-hover .table-secondary:hover {
-    background-color: #cbcfd5;
+    background-color: #FECC00;
 }
 
 .table-hover .table-secondary:hover>td,
@@ -4459,7 +4459,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #377dff;
+    background-color: #FECC00;
 }
 
 .nav-fill .nav-item {
@@ -6469,7 +6469,7 @@ a.close.disabled {
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
     top: 0;
     border-width: 0.4rem 0.4rem 0;
-    border-top-color: #1e2022;
+    border-top-color: #FECC00;
 }
 
 .bs-tooltip-right,
@@ -6596,7 +6596,7 @@ a.close.disabled {
 .bs-popover-auto[x-placement^="top"]>.arrow::before {
     bottom: 0;
     border-width: 0.5rem 0.5rem 0;
-    border-top-color: #e7eaf3;
+    border-top-color: #FECC00;
 }
 
 .bs-popover-top>.arrow::after,
@@ -7134,7 +7134,7 @@ button.bg-indigo:focus {
 }
 
 .border-top {
-    border-top: 1px solid #e7eaf3 !important;
+    border-top: 1px solid #FECC00 !important;
 }
 
 .border-right {
@@ -13506,7 +13506,7 @@ button:focus {
 .u-header__navbar-brand-text,
 .u-header__navbar-brand-text:focus,
 .u-header__navbar-brand-text:hover {
-    color: #377dff;
+    color: #FECC00;
 }
 
 .u-header__navbar-brand-text-white .u-header__navbar-brand-text,
@@ -13543,14 +13543,14 @@ button:focus {
 
 .u-header__nav-item:hover .u-header__nav-link,
 .u-header__nav-item:focus .u-header__nav-link {
-    color: #377dff;
+    color: #FECC00;
 }
 
 
 /* Nav Link */
 
 .u-header .active>.u-header__nav-link {
-    color: #377dff;
+    color: #FECC00;
 }
 
 .u-header__nav-link {
@@ -13638,7 +13638,7 @@ button:focus {
 }
 
 .u-header__promo-item~.u-header__promo-item {
-    border-top: 1px solid #e7eaf3;
+    border-top: 1px solid #FECC00;
 }
 
 .u-header__promo-link {
@@ -14240,7 +14240,7 @@ button:focus {
         color: rgba(255, 255, 255, 0.8);
     }
     .u-header--sub-menu-dark-bg-md .u-header__promo-footer {
-        background-color: #1c1d1f;
+        background-color: #FECC00;
     }
     .u-header--sub-menu-dark-bg-md .u-header__promo-footer-ver-divider::before {
         border-color: rgba(255, 255, 255, 0.1);
@@ -14255,7 +14255,7 @@ button:focus {
         color: #8c98a4;
     }
     .u-header--sub-menu-dark-bg-md .u-header__sub-menu-nav-link:hover {
-        color: #377dff;
+        color: #FECC00;
     }
     .u-header--sub-menu-dark-bg-md .u-header__product-banner {
         background-color: #1c1d1f;
@@ -14719,7 +14719,7 @@ button:focus {
 }
 
 .navbar-expand .u-header__navbar-nav .u-header__sub-menu {
-    border-top: 0.1875rem solid #377dff;
+    border-top: 0.1875rem solid #FECC00;
     border-bottom-right-radius: 0.3125rem;
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
