@@ -18084,7 +18084,7 @@ a.text-primary:focus {
 }
 
 .btn.btn-soft-success {
-    color: #00c9a7;
+    color: #000000;
 }
 
 
@@ -18219,7 +18219,7 @@ a.text-primary:focus {
 }
 
 .btn.btn-soft-danger {
-    color: #de4437;
+    color: #000000;
 }
 
 
@@ -25576,8 +25576,10 @@ screen and (-ms-high-contrast: none) {
 }
 
 .u-cubeportfolio .u-cubeportfolio__item.cbp-filter-item-active {
-    color: #377dff;
+    color: #000000;
     background-color: transparent;
+    font-weight: 700;
+    font-size: 1.2rem;
     border: transparent;
 }
 
