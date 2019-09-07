@@ -22209,7 +22209,7 @@ label.btn {
     z-index: 1;
     line-height: 0;
     display: inline-block;
-    color: #377dff;
+    color: #A82682;
     background-color: rgba(55, 125, 255, 0.1);
     width: 2.5rem;
     height: 2.5rem;
@@ -22220,7 +22220,7 @@ label.btn {
 
 .u-slick__arrow:hover {
     color: #fff;
-    background-color: #377dff;
+    background-color: #A82682;
 }
 
 .u-slick__arrow-inner:before {
@@ -22256,7 +22256,7 @@ label.btn {
 }
 
 .u-slick__arrow--flat-white:hover {
-    color: #377dff;
+    color: #A82682;
     background-color: #fff;
 }
 
@@ -22302,7 +22302,7 @@ label.btn {
 
 .u-slick__arrow-classic:hover {
     color: #fff;
-    background-color: #377dff;
+    background-color: #A82682;
 }
 
 .u-slick__arrow-classic-inner:before {
@@ -22507,7 +22507,7 @@ label.btn {
 }
 
 .u-slick--pagination-interactive .slick-center .u-slick--pagination-interactive__title {
-    color: #377dff;
+    color: #A82682;
 }
 
 .u-slick--pagination-interactive .slick-center .u-slick--pagination-interactive__text {
@@ -22970,7 +22970,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .gradient-half-primary-v5 {
-    background-image: linear-gradient(150deg, #377dff 0%, #2d1582 100%);
+    background-image: linear-gradient(150deg, #A82682 0%, #2d1582 100%);
     background-repeat: repeat-x;
 }
 
