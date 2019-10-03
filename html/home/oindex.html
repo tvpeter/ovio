@@ -34,6 +34,80 @@
 data-header-fix-moment="500"
 data-header-fix-effect="slide">
 <div class="u-header__section">
+        <div class="container u-header__hide-content pt-2">
+                <div class="d-flex align-items-center">
+                  <!-- Language -->
+        
+                  <div class="ml-auto">
+                    <!-- Jump To -->
+                  </div>
+        
+                  <ul class="list-inline ml-2 mb-0">
+                    <!-- Search -->
+                    <li class="list-inline-item">
+                      <a class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              aria-controls="searchPushTop"
+                              data-unfold-type="jquery-slide"
+                              data-unfold-target="#searchPushTop">
+                        <span class="fas fa-search btn-icon__inner"></span>
+                      </a>
+                    </li>
+                    <!-- End Search -->
+        
+                    <!-- Shopping Cart -->
+                    <li class="list-inline-item position-relative">
+                      <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button"
+                              aria-controls="shoppingCartDropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              data-unfold-event="hover"
+                              data-unfold-target="#shoppingCartDropdown"
+                              data-unfold-type="css-animation"
+                              data-unfold-duration="300"
+                              data-unfold-delay="300"
+                              data-unfold-hide-on-scroll="true"
+                              data-unfold-animation-in="slideInUp"
+                              data-unfold-animation-out="fadeOut">
+                        <span class="fas fa-shopping-cart btn-icon__inner"></span>
+                      </a>
+        
+                      <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
+                        <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
+                          <span class="fas fa-shopping-basket btn-icon__inner"></span>
+                        </span>
+                        <span class="d-block">Your Cart is Empty</span>
+                      </div>
+                    </li>
+                    <!-- End Shopping Cart -->
+        
+                    <!-- Account Login -->
+                    <li class="list-inline-item">
+                      <!-- Account Sidebar Toggle Button -->
+                      <a id="sidebarNavToggler" class="btn btn-xs btn-text-secondary u-sidebar--account__toggle-bg ml-1" href="javascript:;" role="button"
+                         aria-controls="sidebarContent"
+                         aria-haspopup="true"
+                         aria-expanded="false"
+                         data-unfold-event="click"
+                         data-unfold-hide-on-scroll="false"
+                         data-unfold-target="#sidebarContent"
+                         data-unfold-type="css-animation"
+                         data-unfold-animation-in="fadeInRight"
+                         data-unfold-animation-out="fadeOutRight"
+                         data-unfold-duration="500">
+                        <span class="position-relative">
+                          <span class="u-sidebar--account__toggle-text">Login</span>
+                          <!-- <span class="fas fa-user-circle btn-icon__inner font-size-1"></span> -->
+                          <img class="u-sidebar--account__toggle-img" src="../../assets/img/32x32/person.png" alt="Image Description">
+                        </span>
+                      </a>
+                      <!-- End Account Sidebar Toggle Button -->
+                    </li>
+                    <!-- End Account Login -->
+                  </ul>
+                </div>
+              </div>
         <div id="searchPushTop" class="u-search-push-top">
                 <div class="container position-relative">
                   <div class="u-search-push-top__content">
@@ -70,7 +144,7 @@ data-header-fix-effect="slide">
 <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
 <div class="u-header-center-aligned-nav__col">
   <!-- Logo -->
-  <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white" href="index.html" aria-label="Front">
+  <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white" href="index.html" aria-label="Ovioprints">
       <img src="../logo_print.png" alt="Ovio Prints logo" width="400">
   </a>
   <!-- End Logo -->
@@ -184,73 +258,8 @@ data-header-fix-effect="slide">
 <li class="nav-item hs-has-sub-menu u-header__nav-item">
 <a class="u-header__navbar-link" href="">Contacts</a>
 </li>
-
-    
-
-
   </ul>
 </div>
-<!-- End Navigation -->
-
- <!-- Last Item -->
- <div class="u-header-center-aligned-nav__col u-header-center-aligned-nav__col-last-item">
-        <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        aria-controls="searchPushTop"
-                        data-unfold-type="jquery-slide"
-                        data-unfold-target="#searchPushTop">
-                  <span class="fas fa-search btn-icon__inner"></span>
-                </a>
-              </li>
-              <!-- End Search -->
-    
-              <!-- Shopping Cart -->
-              <li class="list-inline-item position-relative">
-                <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button"
-                        aria-controls="shoppingCartDropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        data-unfold-event="hover"
-                        data-unfold-target="#shoppingCartDropdown"
-                        data-unfold-type="css-animation"
-                        data-unfold-duration="300"
-                        data-unfold-delay="300"
-                        data-unfold-hide-on-scroll="true"
-                        data-unfold-animation-in="slideInUp"
-                        data-unfold-animation-out="fadeOut">
-                  <span class="fas fa-shopping-cart btn-icon__inner"></span>
-                </a>
-    
-                <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
-                  <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
-                    <span class="fas fa-shopping-basket btn-icon__inner"></span>
-                  </span>
-                  <span class="d-block">Your Cart is Empty</span>
-                </div>
-              </li>
-              <!-- End Shopping Cart -->
-    
-              <!-- Account Login -->
-              <li class="list-inline-item">
-                <!-- Account Sidebar Toggle Button -->
-                <a id="sidebarNavToggler" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button"
-                   aria-controls="sidebarContent"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                   data-unfold-event="click"
-                   data-unfold-hide-on-scroll="false"
-                   data-unfold-target="#sidebarContent"
-                   data-unfold-type="css-animation"
-                   data-unfold-animation-in="fadeInRight"
-                   data-unfold-animation-out="fadeOutRight"
-                   data-unfold-duration="500">
-                  <span class="fas fa-user-circle btn-icon__inner font-size-1"></span>
-                </a>
-              </li>
-
-      </div>
 </nav>
 <!-- End Nav -->
 </div>

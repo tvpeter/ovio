@@ -19713,11 +19713,11 @@ label.btn {
 }
 
 .u-sidebar--account__toggle-bg:hover .u-sidebar--account__toggle-text {
-    color: #377dff;
+    color: #FECC00;
 }
 
 .u-sidebar--account__toggle-text {
-    color: #1e2022;
+    color: #FECC00;
     font-size: .75rem;
     vertical-align: middle;
     margin-right: .3125rem;
