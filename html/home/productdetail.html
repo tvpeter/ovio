@@ -419,11 +419,9 @@
                             <div class="col-12">
                                 <small class="d-block text-secondary font-weight-medium">Select Paper</small>
                                     <select class="form-control custom-select text-muted" required data-msg="Please select paper" data-error-class="u-has-error" data-success-class="u-has-success">
-                            <option value="">Select Paper</option>
-                            <option value="AF">Ikeja</option>
-                            <option value="AX">Lekki Phase 1</option>
-                            <option value="AS">Ajah</option>
-                            <option value="AD">Enugu</option>
+                            <option value="" disabled>Select Paper</option>
+                            <option value="AF">150gsm</option>
+                            <option value="AX">200gsm</option>
                             </select>
 
                             </div>
@@ -444,10 +442,56 @@
             <div class="row">
                 <div class="col-md-4 mb-5 mb-md-0">
                     <div class="pr-lg-4">
-                        <h3 class="h5 font-weight-medium">Select and Edit</h3>
-                        <p>As popular off field as they are on, New Era caps are standard issue amongst those with a passion for street culture, blending progressive styles with carefully crafted design. Known for their innovative use of colour, bold designs
-                            are added season upon season, referencing everything.</p>
-                        <button type="button" class="btn btn-block btn-primary btn-pill transition-3d-hover">Customized</button>
+                        <h3 class="h5 font-weight-medium">Price Table</h3>
+                       <!-- On rows -->
+                       <table class="table table-sm">
+                            <thead>
+                              <tr class="table-dark">
+                                <th scope="col">Qty</th>
+                                <th scope="col">Paper</th>
+                                <th scope="col">Price</th>
+                                <th scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="table-light">
+                                <td>100</td>
+                                <td>150gsm</td>
+                                <td>&#8358;4,500 </td>
+                                <td></td>
+                              </tr>
+                              <tr >
+                                <td>100</td>
+                                <td>200gsm</td>
+                                <td>&#8358;5,500 </td>
+                                <td></td>
+                              </tr>
+                              <tr class="table-secondary">
+                                <td>100</td>
+                                <td>200gsm</td>
+                                <td>&#8358;5,500 </td>
+                                <td></td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>200</td>
+                                <td>150gsm</td>
+                                <td>&#8358;7,500 </td>
+                                <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>200</td>
+                                    <td>200gsm</td>
+                                    <td>&#8358;10,500 </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr class="table-secondary">
+                                    <td>200</td>
+                                    <td>200gsm</td>
+                                    <td>&#8358;11,500 </td>
+                                    <td></td>
+                                  </tr>
+                            </tbody>
+                          </table>
 
                     </div>
                 </div>
@@ -596,7 +640,7 @@
                             <label class="sr-only">How can we help you?</label>
     
                             <div class="js-form-message input-group">
-                                <textarea class="form-control" rows="4" name="description" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required data-msg="Please enter a reason." data-error-class="u-has-error" data-success-class="u-has-success"></textarea>
+                                <textarea class="form-control" rows="4" name="description" placeholder="Hi there, I would like to <td></td>" aria-label="Hi there, I would like to <td></td>" required data-msg="Please enter a reason." data-error-class="u-has-error" data-success-class="u-has-success"></textarea>
                             </div>
                         </div>
                         <!-- End Input -->
