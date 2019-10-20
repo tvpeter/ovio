@@ -3956,8 +3956,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #377dff;
-    background-color: #377dff;
+    border-color: #FECC00;
+    background-color: #A82682;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -13105,12 +13105,12 @@ table th {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #ff37f5;
+    background-color: #FECC00;
 }
 
 ::selection {
     color: #fff;
-    background-color: #ff37f5;
+    background-color: #FECC00;
 }
 
 .bg-primary ::-moz-selection {
@@ -21713,12 +21713,12 @@ label.btn {
 }
 
 .nav-classic .nav-link:hover {
-    color: #377dff;
+    color: #A82682;
 }
 
 .nav-classic .nav-link.active {
-    color: #377dff;
-    border-bottom-color: #377dff;
+    color: #A82682;
+    border-bottom-color: #FECC00;
 }
 
 .nav-borderless {
