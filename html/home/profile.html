@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>My Tasks | Front - Responsive Website Template</title>
+  <title>Profile | Front - Responsive Website Template</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -15,20 +15,15 @@
   <!-- Google Fonts -->
   <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
-  <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/custombox/dist/custombox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
   <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
   <link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-  <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/bootstrap-tagsinput/css/bootstrap-tagsinput.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="../../assets/css/theme.css">
 </head>
-<body class="u-custombox-no-scroll">
+<body>
   <!-- ========== HEADER ========== -->
   <header id="header" class="u-header">
     <!-- Search -->
@@ -800,152 +795,26 @@
   <main id="content" role="main">
     <!-- Breadcrumb Section -->
     <div class="bg-primary">
-      <div class="container space-top-1 pb-3">
-        <div class="row">
-          <div class="col-lg-5 order-lg-2 text-lg-right mb-4 mb-lg-0">
-            <div class="d-flex d-lg-inline-block justify-content-between justify-content-lg-end align-items-center align-items-lg-start">
-              <!-- Breadcrumb -->
-              <ol class="breadcrumb breadcrumb-white breadcrumb-no-gutter mb-0">
-                <li class="breadcrumb-item"><a class="breadcrumb-link" href="https://htmlstream.com/preview/front-v2.9.1/html/home/index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="breadcrumb-link" href="dashboard.html">Account</a></li>
-                <li class="breadcrumb-item active" aria-current="page">My tasks</li>
-              </ol>
-              <!-- End Breadcrumb -->
-
-              <!-- Breadcrumb Nav Toggle Button -->
-              <div class="d-lg-none">
-                <button type="button" class="navbar-toggler btn u-hamburger u-hamburger--white"
-                        aria-label="Toggle navigation"
-                        aria-expanded="false"
-                        aria-controls="breadcrumbNavBar"
-                        data-toggle="collapse"
-                        data-target="#breadcrumbNavBar">
-                  <span id="breadcrumbHamburgerTrigger" class="u-hamburger__box">
-                    <span class="u-hamburger__inner"></span>
-                  </span>
-                </button>
-              </div>
-              <!-- End Breadcrumb Nav Toggle Button -->
-            </div>
+      <div class="container space-1">
+        <div class="d-sm-flex justify-content-sm-between align-items-sm-center">
+          <div class="mb-3 mb-sm-0">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb breadcrumb-white breadcrumb-no-gutter mb-0">
+              <li class="breadcrumb-item"><a class="breadcrumb-link" href="https://htmlstream.com/preview/front-v2.9.1/html/home/index.html">Home</a></li>
+              <li class="breadcrumb-item"><a class="breadcrumb-link" href="dashboard.html">Account</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Profile</li>
+            </ol>
+            <!-- End Breadcrumb -->
           </div>
 
-          <div class="col-lg-7 order-lg-1">
-            <!-- User Info -->
-            <div class="media d-block d-sm-flex align-items-sm-center">
-              <div class="u-lg-avatar position-relative mb-3 mb-sm-0 mr-3">
-                <img class="img-fluid rounded-circle" src="../../assets/img/160x160/img2.jpg" alt="Image Description">
-                <span class="badge badge-md badge-outline-success badge-pos badge-pos--bottom-right rounded-circle">
-                  <span class="fas fa-check"></span>
-                </span>
-              </div>
-              <div class="media-body">
-                <h1 class="h3 text-white font-weight-medium mb-1">Howdy, Natalie!</h1>
-                <span class="d-block text-white">natalie.curtis@gmail.com</span>
-              </div>
-            </div>
-            <!-- End User Info -->
-          </div>
+          <!-- Edit Profile -->
+          <a class="btn btn-sm btn-soft-white transition-3d-hover" href="edit-profile.html">
+            <span class="fas fa-user-cog small mr-2"></span>
+            Edit Profile
+          </a>
+          <!-- End Edit Profile -->
         </div>
-      </div>
 
-      <div class="container space-bottom-1 space-bottom-lg-0">
-        <div class="d-lg-flex justify-content-lg-between align-items-lg-center">
-          <!-- Navbar -->
-          <div class="u-header u-header-left-aligned-nav u-header--bg-transparent-lg u-header--white-nav-links z-index-4">
-            <div class="u-header__section bg-transparent">
-              <nav class="js-breadcrumb-menu navbar navbar-expand-lg u-header__navbar u-header__navbar--no-space">
-                <div id="breadcrumbNavBar" class="collapse navbar-collapse u-header__navbar-collapse">
-                  <ul class="navbar-nav u-header__navbar-nav">
-                    <!-- General -->
-                    <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                        data-event="hover"
-                        data-animation-in="slideInUp"
-                        data-animation-out="fadeOut">
-                      <a id="generalDropdown" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="generalDropdownMenu">
-                        General
-                      </a>
-
-                      <ul id="generalDropdownMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" style="min-width: 230px;" aria-labelledby="generalDropdown">
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="dashboard.html">Dashboard</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="profile.html">Profile</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="my-tasks.html">My tasks</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="projects.html">Projects</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="members.html">Members</a></li>
-                      </ul>
-                    </li>
-                    <!-- General -->
-
-                    <!-- Account Settings -->
-                    <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                        data-event="hover"
-                        data-animation-in="slideInUp"
-                        data-animation-out="fadeOut">
-                      <a id="accountSettingsDropdown" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="accountSettingsDropdownMenu">
-                        Account settings
-                      </a>
-
-                      <ul id="accountSettingsDropdownMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" style="min-width: 230px;" aria-labelledby="accountSettingsDropdown">
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="edit-profile.html">Edit profile</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="change-password.html">Change password</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="notifications.html">Notifications</a></li>
-                      </ul>
-                    </li>
-                    <!-- Account Settings -->
-
-                    <!-- Billing -->
-                    <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                        data-event="hover"
-                        data-animation-in="slideInUp"
-                        data-animation-out="fadeOut">
-                      <a id="billingDropdown" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="billingDropdownMenu">
-                        Billing
-                      </a>
-
-                      <ul id="billingDropdownMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" style="min-width: 230px;" aria-labelledby="billingDropdown">
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="activity.html">Activity</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="payment-methods.html">Payment methods</a></li>
-                      </ul>
-                    </li>
-                    <!-- Billing -->
-
-                    <!-- Accessibility -->
-                    <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                        data-event="hover"
-                        data-animation-in="slideInUp"
-                        data-animation-out="fadeOut">
-                      <a id="accessibilityDropdown" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="accessibilityDropdownMenu">
-                        Accessibility
-                      </a>
-
-                      <ul id="accessibilityDropdownMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" style="min-width: 230px;" aria-labelledby="accessibilityDropdown">
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="invite-friends.html">Invite friends</a></li>
-                        <li><a class="nav-link u-header__sub-menu-nav-link" href="api-token.html">API Token</a></li>
-                      </ul>
-                    </li>
-                    <!-- Accessibility -->
-
-                    <!-- Others -->
-                    <li class="nav-item u-header__nav-item">
-                      <a class="nav-link u-header__nav-link" href="plans.html">Plans</a>
-                    </li>
-                    <!-- Others -->
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-          <!-- End Navbar -->
-
-          <div class="ml-lg-auto">
-            <!-- Button -->
-            <a class="btn btn-sm btn-soft-white text-nowrap transition-3d-hover" href="#addTaskModal"
-               data-modal-target="#addTaskModal">
-              <span class="fas fa-plus small mr-2"></span>
-              Add Task
-            </a>
-            <!-- End Button -->
-          </div>
-        </div>
       </div>
     </div>
     <!-- End Breadcrumb Section -->
@@ -953,287 +822,491 @@
     <!-- Content Section -->
     <div class="bg-light">
       <div class="container space-2">
-        <div class="card">
-          <div class="card-body p-4">
-            <!-- Nav -->
-            <div class="row justify-content-between align-items-center mb-4">
-              <div class="col-md-5 order-md-2 text-md-right mb-3 mb-md-0">
-                <!-- Select -->
-                <select class="js-select selectpicker dropdown-select mr-2" data-width="fit" data-style="btn-soft-primary btn-sm">
-                  <option value="taskSelect1" title="View" selected>Completed tasks</option>
-                  <option value="taskSelect2">Incomplete tasks</option>
-                  <option value="taskSelect3">All tasks</option>
-                </select>
-                <!-- End Select -->
+        <div class="row">
+          <div class="col-lg-3 mb-7 mb-lg-0">
+            <!-- Profile Card -->
+            <div class="card p-1 mb-4">
+              <div class="card-body text-center">
+                <div class="mb-3">
+                  <img class="u-lg-avatar rounded-circle" src="../../assets/img/160x160/img2.jpg" alt="Image Description">
+                </div>
 
-                <!-- Select -->
-                <select class="js-select selectpicker dropdown-select" data-width="fit" data-style="btn-soft-primary btn-sm">
-                  <option value="sortSelect1" title="Sort" selected>None</option>
-                  <option value="sortSelect2">Project</option>
-                  <option value="sortSelect3">Due date</option>
-                  <option value="sortSelect4">Likes</option>
-                </select>
-                <!-- End Select -->
+                <div class="mb-3">
+                  <h1 class="h6 font-weight-medium mb-0">Natalie Curtis</h1>
+                  <small class="d-block text-muted">UI/UX Designer</small>
+                </div>
+
+                <div class="mb-2">
+                  <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="#">
+                    <span class="far fa-envelope mr-2"></span>
+                    Send a Message
+                  </a>
+                </div>
+
+                <a class="text-secondary small" href="#">
+                  <i class="far fa-flag mr-1"></i> Report this user
+                </a>
+              </div>
+            </div>
+            <!-- End Profile Card -->
+
+            <!-- Contacts  -->
+            <div class="card mb-4">
+              <div class="card-header pt-4 pb-3 px-0 mx-4">
+                <h2 class="h6 mb-0">Contacts</h2>
               </div>
 
-              <div class="col-md-7 order-md-1">
-                <!-- Nav Classic -->
-                <ul class="nav nav-classic nav-borderless px-0" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">Assigned</a>
+              <div class="card-body pt-3 pb-4 px-4">
+                <!-- User -->
+                <a class="d-flex align-items-start mb-4" href="#">
+                  <div class="position-relative u-avatar">
+                    <img class="img-fluid rounded-circle" src="../../assets/img/100x100/img9.jpg" alt="Image Description">
+                    <span class="badge badge-xs badge-outline-success badge-pos badge-pos--bottom-right rounded-circle"></span>
+                  </div>
+
+                  <div class="ml-3">
+                    <span class="d-block text-dark">Patrick Garner</span>
+                    <small class="d-block text-secondary">Web Developer</small>
+                  </div>
+                </a>
+                <!-- End User -->
+
+                <!-- User -->
+                <a class="d-flex align-items-start mb-4" href="#">
+                  <span class="btn btn-icon btn-soft-danger rounded-circle">
+                    <span class="btn-icon__inner">AO</span>
+                    <span class="badge badge-xs badge-outline-warning badge-pos badge-pos--bottom-right rounded-circle"></span>
+                  </span>
+
+                  <div class="ml-3">
+                    <span class="d-block text-dark">Amanta Owens</span>
+                    <small class="d-block text-secondary">UI/UX Designer</small>
+                  </div>
+                </a>
+                <!-- End User -->
+
+                <!-- User -->
+                <a class="d-flex align-items-start mb-4" href="#">
+                  <div class="position-relative u-avatar">
+                    <img class="img-fluid rounded-circle" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+                    <span class="badge badge-xs badge-outline-warning badge-pos badge-pos--bottom-right rounded-circle"></span>
+                  </div>
+
+                  <div class="ml-3">
+                    <span class="d-block text-dark">Eliza Donovan</span>
+                    <small class="d-block text-secondary">Project Manager</small>
+                  </div>
+                </a>
+                <!-- End User -->
+
+                <!-- User -->
+                <a class="d-flex align-items-start" href="#">
+                  <span class="btn btn-icon btn-soft-success rounded-circle">
+                    <span class="btn-icon__inner">JC</span>
+                    <span class="badge badge-xs badge-outline-success badge-pos badge-pos--bottom-right rounded-circle"></span>
+                  </span>
+
+                  <div class="ml-3">
+                    <span class="d-block text-dark">James Collins</span>
+                    <small class="d-block text-secondary">Angular Developer</small>
+                  </div>
+                </a>
+                <!-- End User -->
+              </div>
+            </div>
+            <!-- End Contacts  -->
+
+            <!-- Social Profiles -->
+            <div class="card mb-4">
+              <div class="card-header pt-4 pb-3 px-0 mx-4">
+                <h3 class="h6 mb-0">Social Profiles</h3>
+              </div>
+
+              <div class="card-body pt-3 pb-4 px-4">
+                <!-- Social Profiles -->
+                <a class="media mb-4" href="#">
+                  <div class="u-sm-avatar mr-3">
+                    <img class="img-fluid" src="../../assets/img/160x160/img18.png" alt="Image Description">
+                  </div>
+                  <div class="media-body">
+                    <span class="d-block text-dark">Behance</span>
+                    <small class="d-block text-secondary">1.2k followers</small>
+                  </div>
+                </a>
+                <!-- End Social Profiles -->
+
+                <!-- Social Profiles -->
+                <a class="media mb-4" href="#">
+                  <div class="u-sm-avatar mr-3">
+                    <img class="img-fluid" src="../../assets/img/160x160/img21.png" alt="Image Description">
+                  </div>
+                  <div class="media-body">
+                    <span class="d-block text-dark">Dribbble</span>
+                    <small class="d-block text-secondary">4.5k followers</small>
+                  </div>
+                </a>
+                <!-- End Social Profiles -->
+
+                <!-- Social Profiles -->
+                <a class="media mb-4" href="#">
+                  <div class="u-sm-avatar mr-3">
+                    <img class="img-fluid" src="../../assets/img/160x160/img19.png" alt="Image Description">
+                  </div>
+                  <div class="media-body">
+                    <span class="d-block text-dark">Twitter</span>
+                    <small class="d-block text-secondary">2.7k followers</small>
+                  </div>
+                </a>
+                <!-- End Social Profiles -->
+
+                <!-- Social Profiles -->
+                <a class="media" href="#">
+                  <div class="u-sm-avatar mr-3">
+                    <img class="img-fluid" src="../../assets/img/160x160/img20.png" alt="Image Description">
+                  </div>
+                  <div class="media-body">
+                    <span class="d-block text-dark">Facebook</span>
+                    <small class="d-block text-secondary">3k followers</small>
+                  </div>
+                </a>
+                <!-- End Social Profiles -->
+              </div>
+            </div>
+            <!-- End Social Profiles -->
+          </div>
+
+          <div class="col-lg-9">
+            <!-- User Details -->
+            <div class="mb-4">
+              <h2 class="h4"><span class="badge badge-success ml-1">Status update:</span>One-Sided Business Cards </h2>
+              <h4 class="h6 text-secondary mb-0"><small>Submitted: 5th July 2017</small></h4>
+            </div>
+            <!-- End User Details -->
+
+            <!-- Info -->
+            <div class="mb-4">
+              <p>Here is the Description of the order and what details were supplied by the user.
+                It will also show when the order was received, the state of the order and other details about the order.
+
+              </p>
+            </div>
+            <!-- End Info -->
+
+            <!-- Collections -->
+            <ul id="progressbar">
+                <li class="active">Personal Details</li>
+                <li>Social Profiles</li>
+                <li>Account Setup</li>
+            </ul>
+            <!-- End Collections -->
+
+            <hr class="my-7">
+
+            <!-- Icon Blocks -->
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <!-- List Group -->
+                <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-envelope list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Email:</span>
+                        <a href="#">natalie.curtis@gmail.com</a>
+                      </div>
+                    </div>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">Calendar</a>
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-link list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Web page:</span>
+                        <a href="#">www.htmlstream.com/natalie</a>
+                      </div>
+                    </div>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">Progress</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false">Files</a>
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-map-marker-alt list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Location:</span>
+                        <a href="#">London, England</a>
+                      </div>
+                    </div>
                   </li>
                 </ul>
-                <!-- End Nav Classic -->
+                <!-- End List Group -->
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <!-- List Group -->
+                <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-birthday-cake list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Birthday:</span>
+                        <span class="d-block text-muted">May 3, 1986</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-building list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Organization:</span>
+                        <a href="#">Pixeel Ltd.</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-mobile-alt list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Phone number:</span>
+                        <a href="#">+44 (0161) 347 8854</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <!-- End List Group -->
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <!-- List Group -->
+                <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-globe list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Language:</span>
+                        <span class="d-block text-muted">English, French</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-tags list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Skills:</span>
+                        <a href="#">HTML5,</a>
+                        <a href="#">CSS3,</a>
+                        <a href="#">JavaScript,</a>
+                        <a href="#">jQuery</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <!-- End List Group -->
               </div>
             </div>
-            <!-- End Nav -->
+            <!-- End Icon Blocks -->
 
-            <!-- Datatable -->
-            <div class="tab-content" id="pills-tabContent">
-              <!-- Content One -->
-              <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-                <!-- Transaction Table -->
-                <div class="table-responsive-md u-datatable">
-                  <table class="js-datatable table table-borderless u-datatable__striped u-datatable__content"
-                         data-dt-info="#datatableInfo"
-                         data-dt-search="#datatableSearch"
-                         data-dt-entries="#datatableEntries"
-                         data-dt-page-length="12"
-                         data-dt-is-responsive="false"
-                         data-dt-is-show-paging="true"
+            <hr class="my-7">
 
-                         data-dt-pagination="datatablePagination"
-                         data-dt-pagination-classes="pagination mb-0"
-                         data-dt-pagination-items-classes="page-item"
-                         data-dt-pagination-links-classes="page-link"
-
-                         data-dt-pagination-next-classes="page-item"
-                         data-dt-pagination-next-link-classes="page-link"
-                         data-dt-pagination-next-link-markup='<span aria-hidden="true">&raquo;</span>'
-
-                         data-dt-pagination-prev-classes="page-item"
-                         data-dt-pagination-prev-link-classes="page-link"
-                         data-dt-pagination-prev-link-markup='<span aria-hidden="true">&laquo;</span>'>
-                    <thead>
-                      <tr class="text-uppercase font-size-1">
-                        <th scope="col" class="font-weight-medium">
-                          <div class="d-flex justify-content-between align-items-center">
-                            Task
-                            <div class="ml-2">
-                              <span class="fas fa-angle-up u-datatable__thead-icon"></span>
-                              <span class="fas fa-angle-down u-datatable__thead-icon"></span>
-                            </div>
-                          </div>
-                        </th>
-                        <th scope="col" class="font-weight-medium">
-                          <div class="d-flex justify-content-between align-items-center">
-                            Project
-                            <div class="ml-2">
-                              <span class="fas fa-angle-up u-datatable__thead-icon"></span>
-                              <span class="fas fa-angle-down u-datatable__thead-icon"></span>
-                            </div>
-                          </div>
-                        </th>
-                        <th scope="col" class="font-weight-medium">
-                          <div class="d-flex justify-content-between align-items-center">
-                            Priority
-                            <div class="ml-2">
-                              <span class="fas fa-angle-up u-datatable__thead-icon"></span>
-                              <span class="fas fa-angle-down u-datatable__thead-icon"></span>
-                            </div>
-                          </div>
-                        </th>
-                        <th scope="col" class="font-weight-medium">
-                          <div class="d-flex justify-content-between align-items-center">
-                            Due date
-                            <div class="ml-2">
-                              <span class="fas fa-angle-up u-datatable__thead-icon"></span>
-                              <span class="fas fa-angle-down u-datatable__thead-icon"></span>
-                            </div>
-                          </div>
-                        </th>
-                        <th scope="col" class="font-weight-medium">
-                          <div class="d-flex justify-content-between align-items-center">
-                            Status
-                            <div class="ml-2">
-                              <span class="fas fa-angle-up u-datatable__thead-icon"></span>
-                              <span class="fas fa-angle-down u-datatable__thead-icon"></span>
-                            </div>
-                          </div>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody class="font-size-1">
-                      <tr>
-                        <td class="align-middle font-weight-normal">Home page redesign</td>
-                        <td class="align-middle">Spotify</td>
-                        <td class="align-middle text-danger">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          Highest
-                        </td>
-                        <td class="align-middle">25 Jul</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-primary small mr-1"></span>
-                          In progress
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Logo branding</td>
-                        <td class="align-middle">Dropbox</td>
-                        <td class="align-middle text-warning">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          Medium
-                        </td>
-                        <td class="align-middle">12 Aug</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-primary small mr-1"></span>
-                          In progress
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Website redesign</td>
-                        <td class="align-middle">Google</td>
-                        <td class="align-middle text-danger">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          High
-                        </td>
-                        <td class="align-middle">15 Aug</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-success small mr-1"></span>
-                          Completed
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Home page redesign</td>
-                        <td class="align-middle">FrontApp</td>
-                        <td class="align-middle text-warning">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          Medium
-                        </td>
-                        <td class="align-middle">01 Aug</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-success small mr-1"></span>
-                          Completed
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">SEO optimization</td>
-                        <td class="align-middle">Slack</td>
-                        <td class="align-middle text-success">
-                          <span class="fas fa-arrow-down mr-1"></span>
-                          Lowest
-                        </td>
-                        <td class="align-middle">02 Aug</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-warning small mr-1"></span>
-                          On hold
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Branding</td>
-                        <td class="align-middle">Spotify</td>
-                        <td class="align-middle text-danger">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          High
-                        </td>
-                        <td class="align-middle">05 Sep</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-primary small mr-1"></span>
-                          In progress
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Logo redesign</td>
-                        <td class="align-middle">Htmlstream</td>
-                        <td class="align-middle text-danger">
-                          <span class="fas fa-arrow-up mr-1"></span>
-                          High
-                        </td>
-                        <td class="align-middle">15 Sep</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-success small mr-1"></span>
-                          Completed
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td class="align-middle font-weight-normal">Website redesign</td>
-                        <td class="align-middle">GitHub</td>
-                        <td class="align-middle text-success">
-                          <span class="fas fa-arrow-down mr-1"></span>
-                          Low
-                        </td>
-                        <td class="align-middle">16 Sep</td>
-                        <td class="align-middle">
-                          <span class="fas fa-circle text-warning small mr-1"></span>
-                          On hold
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+            <!-- Info -->
+            <div class="row mb-7">
+              <div class="col-md-6 mb-7 mb-md-0">
+                <!-- Title -->
+                <div class="mb-3">
+                  <h3 class="h6 mb-0">Work experience</h3>
                 </div>
-                <!-- End Transaction Table -->
-              </div>
-              <!-- End Content One -->
+                <!-- End Title -->
 
-              <!-- Content Two -->
-              <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-                <div class="text-center py-4">
-                  <div class="w-md-80 w-lg-50 text-center mx-md-auto">
-                    <figure id="SVGevents" class="svg-preloader mb-7 ie-events">
-                      <img class="js-svg-injector w-50" src="https://htmlstream.com/preview/front-v2.9.1/assets/svg/illustrations/events.svg" alt="Image Description"
-                           data-parent="#SVGevents">
-                    </figure>
-                    <h4 class="h5 font-weight-normal">All due dates to tasks &amp; other notes in this project will appear here.</h4>
+                <!-- Info -->
+                <div class="d-flex mb-5">
+                  <img class="u-avatar align-self-center mr-4" src="../../assets/img/160x160/img17.png" alt="Image Description">
+                  <div>
+                    <small class="d-block text-secondary">Jul 2018</small>
+                    <h4 class="h6 mb-0">Senior Frontend Developer</h4>
+                    <span class="d-block text-secondary">at Google - SF, US</span>
                   </div>
                 </div>
-              </div>
-              <!-- End Content Two -->
+                <!-- End Info -->
 
-              <!-- Content Three -->
-              <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-                <div class="text-center py-4">
-                  <div class="w-md-80 w-lg-50 text-center mx-md-auto">
-                    <figure id="SVGdataReport" class="svg-preloader mb-7 ie-data-report">
-                      <img class="js-svg-injector w-50" src="https://htmlstream.com/preview/front-v2.9.1/assets/svg/illustrations/data-report.svg" alt="Image Description"
-                           data-parent="#SVGdataReport">
-                    </figure>
-                    <h4 class="h5 font-weight-normal">All progress, data analysis to tasks in this project will appear here.</h4>
+                <!-- Info -->
+                <div class="d-flex">
+                  <img class="u-avatar align-self-center mr-4" src="../../assets/img/160x160/img14.png" alt="Image Description">
+                  <div>
+                    <small class="d-block text-secondary">Aug 2016 - Jul 2018</small>
+                    <h4 class="h6 mb-0">Junior Frontend Developer</h4>
+                    <span class="d-block text-secondary">at Slack Inc - London, UK</span>
                   </div>
                 </div>
+                <!-- End Info -->
               </div>
-              <!-- End Content Three -->
 
-              <!-- Content Four -->
-              <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-                <div class="text-center py-4">
-                  <div class="w-md-80 w-lg-50 text-center mx-md-auto">
-                    <figure id="SVGimageUpload" class="svg-preloader mb-7 ie-image-upload">
-                      <img class="js-svg-injector w-50" src="https://htmlstream.com/preview/front-v2.9.1/assets/svg/illustrations/image-upload.svg" alt="Image Description"
-                           data-parent="#SVGimageUpload">
-                    </figure>
-                    <h4 class="h5 font-weight-normal">All attachments to tasks &amp; conversations in this project will appear here.</h4>
+              <div class="col-md-6 mb-3 mb-md-0">
+                <!-- Title -->
+                <div class="mb-3">
+                  <h3 class="h6 mb-0">Education</h3>
+                </div>
+                <!-- End Title -->
+
+                <!-- Info -->
+                <div class="row align-items-center mb-5">
+                  <div class="col-4">
+                    <img class="img-fluid" src="../../assets/img/logos/harvard-university.png" alt="Image Description">
+                  </div>
+                  <div class="col-8">
+                    <small class="d-block text-secondary">Sep 2009 - June 2013</small>
+                    <h4 class="h6 mb-0">BS in Computer Science</h4>
+                    <span class="d-block text-secondary">Harvard University</span>
                   </div>
                 </div>
+                <!-- End Info -->
+
+                <!-- Info -->
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <img class="img-fluid" src="../../assets/img/logos/ubc.png" alt="Image Description">
+                  </div>
+                  <div class="col-8">
+                    <small class="d-block text-secondary">Sep 2014 - June 2016</small>
+                    <h4 class="h6 mb-0">MBA in Marketing</h4>
+                    <span class="d-block text-secondary">University of British Columbia</span>
+                  </div>
+                </div>
+                <!-- End Info -->
               </div>
-              <!-- End Content Four -->
             </div>
-            <!-- End Datatable -->
+            <!-- End Info -->
+
+            <hr class="my-7">
+
+            <!-- Title -->
+            <div id="reviews" class="mb-3">
+              <h3 class="h4 mb-0">Reviews <span class="text-muted font-size-1">(125)</span></h3>
+            </div>
+            <!-- End Title -->
+
+            <!-- Reviews -->
+            <div>
+              <!-- Author -->
+              <div class="media mb-3">
+                <img class="u-avatar rounded-circle mr-3" src="../../assets/img/100x100/img3.jpg" alt="Image Description">
+
+                <div class="media-body align-self-center">
+                  <h4 class="d-inline-block mb-1">
+                    <a class="d-block h6 mb-0" href="#">Russel Fernandes</a>
+                  </h4>
+                  <ul class="list-inline text-warning small mb-0">
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star text-warning"></span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="media-body text-right">
+                  <small class="d-block text-muted">3 hours ago.</small>
+                </div>
+              </div>
+              <!-- End Author -->
+
+              <p>At the end of the day, it's important to not let being busy distract us from having fun. Smiling, laughing, and hanging helps us work together to achieve this.</p>
+
+              <!-- Likes/Reply -->
+              <ul class="list-inline d-flex">
+                <li class="list-inline-item">
+                  <a class="text-secondary" href="#">
+                    17
+                    <span class="far fa-thumbs-up ml-1"></span>
+                  </a>
+                </li>
+                <li class="list-inline-item ml-3">
+                  <a class="text-secondary" href="#">
+                    0
+                    <span class="far fa-thumbs-down ml-1"></span>
+                  </a>
+                </li>
+                <li class="list-inline-item ml-auto">
+                  <a class="text-secondary" href="#">
+                    <span class="far fa-comments mr-1"></span>
+                    Reply
+                  </a>
+                </li>
+              </ul>
+              <!-- End Likes/Reply -->
+            </div>
+            <!-- End Reviews -->
+
+            <hr class="my-7">
+
+            <!-- Reviews -->
+            <div class="mb-7">
+              <!-- Author -->
+              <div class="media mb-3">
+                <img class="u-avatar rounded-circle mr-3" src="../../assets/img/100x100/img2.jpg" alt="Image Description">
+
+                <div class="media-body align-self-center">
+                  <h4 class="d-inline-block mb-1">
+                    <a class="d-block h6 mb-0" href="#">Elizabeth Lord</a>
+                  </h4>
+                  <ul class="list-inline text-warning small mb-0">
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="fas fa-star"></span>
+                    </li>
+                    <li class="list-inline-item mx-0">
+                      <span class="far fa-star text-warning"></span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="media-body text-right">
+                  <small class="d-block text-muted">1 day ago.</small>
+                </div>
+              </div>
+              <!-- End Author -->
+
+              <p>It's important to stay detail oriented with every project we tackle. Staying focused allows us to turn every project we complete into something we love. We strive to embrace and drive change in our industry which allows us to keep our clients relevant and ready to adapt.</p>
+
+              <!-- Likes/Reply -->
+              <ul class="list-inline d-flex">
+                <li class="list-inline-item">
+                  <a class="text-secondary" href="#">
+                    17
+                    <span class="far fa-thumbs-up ml-1"></span>
+                  </a>
+                </li>
+                <li class="list-inline-item ml-3">
+                  <a class="text-secondary" href="#">
+                    0
+                    <span class="far fa-thumbs-down ml-1"></span>
+                  </a>
+                </li>
+                <li class="list-inline-item ml-auto">
+                  <a class="text-secondary" href="#">
+                    <span class="far fa-comments mr-1"></span>
+                    Reply
+                  </a>
+                </li>
+              </ul>
+              <!-- End Likes/Reply -->
+            </div>
+            <!-- End Reviews -->
+
+            <a class="btn btn-block btn-soft-primary transition-3d-hover" href="#">See More</a>
           </div>
         </div>
       </div>
@@ -1506,342 +1579,6 @@
     </div>
   </aside>
   <!-- End Account Sidebar Navigation -->
-
-  <!-- Add Task Modal Window -->
-  <div id="addTaskModal" class="js-add-project-window u-modal-window" style="width: 680px;">
-    <form class="card mb-9">
-      <!-- Header -->
-      <header class="card-header bg-light py-3 px-5">
-        <div class="row justify-content-between align-items-center no-gutters">
-          <div class="col-3">
-            <h4 class="h6 mb-0">Add a new task</h4>
-          </div>
-
-          <div class="col-9 text-right">
-            <!-- Icons -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-0">
-                <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#" data-toggle="tooltip" data-placement="top" title="Add attach">
-                  <span class="fas fa-paperclip btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item mr-0">
-                <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#" data-toggle="tooltip" data-placement="top" title="Copy task URL">
-                  <span class="fas fa-link btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item mr-0">
-                <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#" data-toggle="tooltip" data-placement="top" title="Like this">
-                  <span class="fas fa-thumbs-up btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item mr-0">
-                <!-- Settings Dropdown -->
-                <div class="position-relative">
-                  <a id="addTaskSettingsDropdown1Invoker" class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="javascript:;" role="button"
-                     aria-controls="addTaskSettingsDropdown1"
-                     aria-haspopup="true"
-                     aria-expanded="false"
-                     data-unfold-event="click"
-                     data-unfold-target="#addTaskSettingsDropdown1"
-                     data-unfold-type="css-animation"
-                     data-unfold-duration="300"
-                     data-unfold-delay="300"
-                     data-unfold-hide-on-scroll="true"
-                     data-unfold-animation-in="slideInUp"
-                     data-unfold-animation-out="fadeOut">
-                    <span class="fas fa-ellipsis-h btn-icon__inner"></span>
-                  </a>
-
-                  <div id="addTaskSettingsDropdown1" class="dropdown-menu dropdown-menu-right" aria-labelledby="addTaskSettingsDropdown1Invoker" style="min-width: 160px;">
-                    <a class="dropdown-item" href="#">Tags</a>
-                    <a class="dropdown-item" href="#">Add flag</a>
-                    <a class="dropdown-item" href="#">Add to project</a>
-                    <a class="dropdown-item" href="#">Delete task</a>
-                    <a class="dropdown-item" href="#">Copy task...</a>
-                    <a class="dropdown-item" href="#">Print</a>
-                  </div>
-                </div>
-                <!-- End Settings Dropdown -->
-              </li>
-              <li class="list-inline-item mr-0">
-                <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="javascript:;" onclick="Custombox.modal.close();">
-                  <span class="fas fa-times btn-icon__inner"></span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Icons -->
-          </div>
-        </div>
-      </header>
-      <!-- End Header -->
-
-      <!-- Alert -->
-      <div class="alert alert-warning font-size-1 rounded-0 px-5 mb-0" role="alert">
-        This task visible to members of Front Template. <a class="alert-link" href="#">Make public</a>
-      </div>
-      <!-- End Alert -->
-
-      <div class="card-body pt-3 pb-5 px-5">
-        <!-- Task Title -->
-        <div class="input-group input-group-borderless mb-3">
-          <input class="form-control pl-0" type="text" placeholder="Enter a task title" aria-label="Enter a task title">
-        </div>
-        <!-- End Task Title -->
-
-        <!-- Status -->
-        <div class="row mx-gutters-2 mb-3">
-          <div class="col-sm-4 mb-3 mb-sm-0">
-            <label class="form-label">Status</label>
-            <!-- Select -->
-            <select class="js-select selectpicker dropdown-select" data-width="100%" data-style="btn-soft-primary btn-sm">
-              <option value="markComplete">Mark complete</option>
-              <option value="completed">Completed</option>
-            </select>
-            <!-- End Select -->
-          </div>
-
-          <div class="col-6 col-sm">
-            <label class="form-label">Assignee</label>
-            <!-- Select -->
-            <select class="js-select selectpicker dropdown-select" title="Add assignee"
-                    data-width="100%"
-                    data-style="btn-sm bg-transparent text-secondary font-weight-normal px-0"
-                    data-live-search="true"
-                    data-searchbox-classes="input-group-sm">
-              <option value="assignee1" data-tokens="user1" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img9.jpg" alt="Image Description">
-                  </span>
-                  <span>Sebastian Diaz</span>
-                </span>'>
-                Sebastian Diaz
-              </option>
-              <option value="assignee2" data-tokens="user2" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img7.jpg" alt="Image Description">
-                  </span>
-                  <span>Eliza Donovan</span>
-                </span>'>
-                Eliza Donovan
-              </option>
-              <option value="assignee3" data-tokens="user3" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img6.jpg" alt="Image Description">
-                  </span>
-                  <span>Cameron Brown</span>
-                </span>'>
-                Cameron Brown
-              </option>
-            </select>
-            <!-- End Select -->
-          </div>
-
-          <div class="col-6 col-sm">
-            <label class="form-label">Choose project</label>
-            <!-- Select -->
-            <select class="js-select selectpicker dropdown-select dropdown-select--right" title="Choose project"
-                    data-width="100%"
-                    data-style="btn-sm bg-transparent text-secondary font-weight-normal px-0"
-                    data-live-search="true"
-                    data-searchbox-classes="input-group-sm">
-              <option value="project1" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img11.jpg" alt="Image Description">
-                  </span>
-                  <span>Slack</span>
-                </span>'>
-                Slack
-              </option>
-              <option value="project2" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img12.jpg" alt="Image Description">
-                  </span>
-                  <span>DropBox</span>
-                </span>'>
-                DropBox
-              </option>
-              <option value="project3" data-content='
-                <span class="d-flex align-items-center">
-                  <span class="u-xs-avatar mr-2">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img13.jpg" alt="Image Description">
-                  </span>
-                  <span>Spotify</span>
-                </span>'>
-                Spotify
-              </option>
-            </select>
-            <!-- End Select -->
-          </div>
-        </div>
-        <!-- End Status -->
-
-        <!-- Input -->
-        <textarea class="form-control" rows="3" placeholder="Add a description" aria-label="Add a description"></textarea>
-        <!-- End Input -->
-
-        <hr class="my-4">
-
-        <!-- Assignee -->
-        <div class="row">
-          <div class="col-sm-5 mb-4 mb-sm-0">
-            <label class="form-label">Reporter</label>
-            <div class="media align-items-center">
-              <div class="u-sm-avatar mr-2">
-                <img class="img-fluid rounded-circle" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
-              </div>
-              <div class="media-body">
-                <h5 class="h6 font-weight-normal mb-0">Natalie Curtis</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-7">
-            <label class="form-label">Followers</label>
-            <!-- Avatars -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img2.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Patrick Garner">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img3.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Amanta Owens">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img4.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Eliza Donovan">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img5.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Cler Lockhart">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img6.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="James Collins">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img7.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Josephina Mack">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img8.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Sean Lewis">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a href="#">
-                  <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle">
-                    <img class="img-fluid rounded-circle" src="../../assets/img/32x32/img9.jpg" alt="Image Description" data-toggle="tooltip" data-placement="top" title="Sebastian Diaz">
-                  </div>
-                </a>
-              </li>
-              <li class="list-inline-item ml-n3 mb-1 mr-0">
-                <a class="btn btn-sm btn-icon btn-light rounded-circle" href="#">
-                  <span class="btn-icon__inner">+3</span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Avatars -->
-          </div>
-        </div>
-        <!-- End Assignee -->
-
-        <hr class="my-4">
-
-        <!-- Details -->
-        <div class="row">
-          <div class="col-7 col-sm-5 mb-4 mb-sm-0">
-            <label class="form-label">Due date</label>
-            <!-- Datepicker -->
-            <div id="datepickerWrapper" class="u-datepicker input-group input-group-sm input-group-borderless">
-              <div class="input-group-prepend">
-                <span class="input-group-text text-success p-0 mr-2">
-                  <span class="fas fa-calendar"></span>
-                </span>
-              </div>
-              <input class="js-range-datepicker form-control bg-transparent px-1" type="text" placeholder="Due date" aria-label="Due date"
-                     data-rp-wrapper="#datepickerWrapper"
-                     data-rp-date-format="d/m/Y">
-            </div>
-            <!-- End Datepicker -->
-          </div>
-
-          <div class="col-5 col-sm-3">
-            <label class="form-label">Priority</label>
-            <!-- Select -->
-            <select class="js-select selectpicker dropdown-select w-100" data-style="btn-sm bg-transparent font-weight-normal px-0">
-              <option value="priorityHighest" data-icon="fas fa-arrow-up text-danger small mr-2">Highest</option>
-              <option value="priorityHigh" data-icon="fas fa-arrow-up text-danger small mr-2">High</option>
-              <option value="priorityMedium" data-icon="fas fa-arrow-up text-warning small mr-2" selected>Medium</option>
-              <option value="priorityLow" data-icon="fas fa-arrow-down text-success small mr-2">Low</option>
-              <option value="priorityLowest" data-icon="fas fa-arrow-down text-success small mr-2">Lowest</option>
-            </select>
-            <!-- End Select -->
-          </div>
-        </div>
-        <!-- End Details -->
-
-        <hr class="my-4">
-
-        <!-- Label Input -->
-        <label class="form-label">Labels</label>
-        <div class="u-tagsinput">
-          <input type="text" value="HTML5, CSS3" data-role="tagsinput">
-        </div>
-        <!-- End Label Input -->
-
-        <hr class="my-4">
-
-        <!-- Comments -->
-        <div class="mb-3">
-          <label class="form-label">Comments</label>
-          <div class="media">
-            <div class="u-sm-avatar mr-2">
-              <img class="img-fluid rounded-circle" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
-            </div>
-            <div class="media-body">
-              <textarea class="form-control" rows="2" placeholder="Add a comment" aria-label="Add a comment"></textarea>
-            </div>
-          </div>
-        </div>
-        <!-- End Comments -->
-
-        <!-- Buttons -->
-        <div class="d-flex justify-content-end">
-          <button type="submit" class="btn btn-sm btn-primary transition-3d-hover mr-1">Create Task</button>
-          <button type="submit" class="btn btn-sm btn-soft-secondary transition-3d-hover" onclick="Custombox.modal.close();">Cancel</button>
-        </div>
-        <!-- End Buttons -->
-      </div>
-    </form>
-  </div>
-  <!-- End Add Task Modal Window -->
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- Go to Top -->
@@ -1866,12 +1603,6 @@
   <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
   <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
   <script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="../../assets/vendor/custombox/dist/custombox.min.js"></script>
-  <script src="../../assets/vendor/custombox/dist/custombox.legacy.min.js"></script>
-  <script src="../../assets/vendor/datatables/media/js/jquery.dataTables.min.js"></script>
-  <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-  <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
-  <script src="../../assets/vendor/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js"></script>
 
   <!-- JS Front -->
   <script src="../../assets/js/hs.core.js"></script>
@@ -1879,10 +1610,6 @@
   <script src="../../assets/js/components/hs.unfold.js"></script>
   <script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
   <script src="../../assets/js/components/hs.focus-state.js"></script>
-  <script src="../../assets/js/components/hs.datatables.js"></script>
-  <script src="../../assets/js/components/hs.selectpicker.js"></script>
-  <script src="../../assets/js/components/hs.modal-window.js"></script>
-  <script src="../../assets/js/components/hs.range-datepicker.js"></script>
   <script src="../../assets/js/components/hs.svg-injector.js"></script>
   <script src="../../assets/js/components/hs.go-to.js"></script>
 
@@ -1926,25 +1653,10 @@
       // initialization of forms
       $.HSCore.components.HSFocusState.init();
 
-      // initialization of autonomous popups
-      $.HSCore.components.HSModalWindow.init('[data-modal-target]', '.js-add-project-window', {
-        autonomous: true
-      });
-
-      // initialization of datatables
-      $.HSCore.components.HSDatatables.init('.js-datatable');
-
-      // initialization of select picker
-      $.HSCore.components.HSSelectPicker.init('.js-select');
-
-      // initialization of range datepicker
-      $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
-
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
   </script>
 </body>
 
-<!-- Mirrored from htmlstream.com/preview/front-v2.9.1/html/account/my-tasks.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Aug 2019 13:46:25 GMT -->
 </html>
